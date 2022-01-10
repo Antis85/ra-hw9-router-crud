@@ -14,7 +14,7 @@ export default function CreatePage(props) {
     if (!content) return;    
     addPost({ content, id: '0' });
     setContent('');
-    navigate('/ra-hw9-router-crud');
+    navigate('/');
   };
 
   const handleChange = ({ target }) => {
@@ -41,7 +41,7 @@ export default function CreatePage(props) {
           <span className="category-name">Еще</span>
         </div>
         <div className="create-page__header-wrapper__category-warpper">
-          <Link to="/ra-hw9-router-crud">
+          <Link to="/">
             <span className="material-icons">close</span>
           </Link>
         </div>

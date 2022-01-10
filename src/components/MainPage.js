@@ -7,14 +7,14 @@ import ErrorPage from './ErrorPage';
 export default function MainPage(props) {
   const { posts, handleView, loading, error } = props;
   const postsList = posts.map((post) => (
-    <Link key={post.id} to={`/ra-hw9-router-crud/posts/${post.id}`}>
+    <Link key={post.id} to={`/posts/${post.id}`}>
       <Post post={post} handleView={handleView} />
     </Link>
   ));
   return (
     <>
       <section className="header-page">
-        <Link to="/ra-hw9-router-crud/posts/new">Создать пост</Link>
+        <Link to="/posts/new">Создать пост</Link>
       </section>
       <section className="main-page">
         {loading ? (

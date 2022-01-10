@@ -6,7 +6,7 @@ export default function Page404() {
     <div className="page-404">
       <div className="page-404__header">404</div>
       <div className="page-404__main">Страница не найдена...</div>
-      <Link to="/ra-hw9-router-crud">Перейти на главную страницу</Link>
+      <Link to="/">Перейти на главную страницу</Link>
     </div>
   );
 }

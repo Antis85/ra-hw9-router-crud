@@ -14,7 +14,7 @@ export default function ViewPage(props) {
 
   const handleRemove = () => {
     deletePost({ id: post.id });
-    navigate('/ra-hw9-router-crud');
+    navigate('/');
   };
 
   const handleClose = () => {
@@ -45,7 +45,7 @@ export default function ViewPage(props) {
       </div>
       <div className="article__paragraph-footer">
         <Link
-          to={`/ra-hw9-router-crud/posts/edit/${post.id}`}
+          to={`/posts/edit/${post.id}`}
           className="view-page_button-edit"
         >
           Изменить

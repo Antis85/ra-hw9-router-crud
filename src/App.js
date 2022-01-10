@@ -93,19 +93,19 @@ export default function App() {
       <div className="page">
         <Routes>
           <Route
-            path="/ra-hw9-router-crud/posts/new"
+            path="/posts/new"
             element={<CreatePage addPost={addPost} />}
           />
           <Route
-            path="/ra-hw9-router-crud/posts/:id"
+            path="/posts/:id"
             element={<ViewPage posts={posts} deletePost={deletePost} />}
           />
           <Route
-            path="/ra-hw9-router-crud/posts/edit/:id"
+            path="/posts/edit/:id"
             element={<EditPage posts={posts} addPost={addPost} />}
           />
           <Route
-            path="/ra-hw9-router-crud"
+            path="/"
             element={<MainPage posts={posts} loading={loading} error={error} />}
           />
           <Route path="*" element={<Page404 />} />

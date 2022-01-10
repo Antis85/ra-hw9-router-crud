@@ -17,7 +17,7 @@ export default function EditPage(props) {
     if (!content || !post.id) return;
     addPost({ content, id: post.id });
     setContent('');
-    navigate('/ra-hw9-router-crud');
+    navigate('/');
   };
 
   const handleChange = ({ target }) => {
