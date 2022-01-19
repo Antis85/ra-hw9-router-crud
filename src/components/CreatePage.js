@@ -24,23 +24,23 @@ export default function CreatePage(props) {
   return (
     <article className="article create-page">
       <div className="create-page__header-wrapper">
-        <div className="create-page__header-wrapper__category-warpper">
+        <div className="create-page__header-wrapper__category-wrapper">
           <span className="material-icons">edit</span>
           <span className="category-name">Публикация</span>
         </div>
-        <div className="create-page__header-wrapper__category-warpper">
+        <div className="create-page__header-wrapper__category-wrapper">
           <span className="material-icons">photo_camera</span>
           <span className="category-name">Фото/видео</span>
         </div>
-        <div className="create-page__header-wrapper__category-warpper">
+        <div className="create-page__header-wrapper__category-wrapper">
           <span className="material-icons">video_camera_front</span>
           <span className="category-name">Прямой эфир</span>
         </div>
-        <div className="create-page__header-wrapper__category-warpper">
+        <div className="create-page__header-wrapper__category-wrapper">
           <span className="material-icons">more</span>
           <span className="category-name">Еще</span>
         </div>
-        <div className="create-page__header-wrapper__category-warpper">
+        <div className="create-page__header-wrapper__category-wrapper">
           <Link to="/">
             <span className="material-icons">close</span>
           </Link>
