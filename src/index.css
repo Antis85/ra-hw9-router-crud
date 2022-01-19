@@ -200,19 +200,19 @@ section a:last-child .article {
   color: gray;
 }
 
-.create-page__header-wrapper__category-warpper .category-name {
+.create-page__header-wrapper__category-wrapper .category-name {
   color: blue;
   font-weight: bold;
 }
 
-.create-page__header-wrapper__category-warpper:first-child {
+.create-page__header-wrapper__category-wrapper:first-child {
   align-items: center;
   display: flex;
   padding-right: 1rem;
   border-right: 1px solid gainsboro;
 }
 
-.create-page__header-wrapper__category-warpper:nth-child(n + 2) {
+.create-page__header-wrapper__category-wrapper:nth-child(n + 2) {
   align-items: center;
   display: flex;
   padding-right: 1rem;
@@ -220,7 +220,7 @@ section a:last-child .article {
   border-right: 1px solid gainsboro;
 }
 
-.create-page__header-wrapper__category-warpper:last-child {
+.create-page__header-wrapper__category-wrapper:last-child {
   padding: 0;
   margin-left: auto;
   border: none;
